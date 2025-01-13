@@ -1,0 +1,131 @@
+/* Estilos globales */
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* Títulos */
+h1.titulo-principal {
+    color: #4caf50;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+}
+
+h2#subtitulo {
+    color: darkgreen;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* Texto */
+p.introduccion {
+    text-align: justify;
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.texto-ejemplo span.negrita {
+    font-weight: bold;
+}
+
+.texto-ejemplo span.cursiva {
+    font-style: italic;
+}
+
+.texto-ejemplo span.subrayado {
+    text-decoration: underline;
+}
+
+.texto-ejemplo span.sombra {
+    text-shadow: 2px 2px 5px gray;
+}
+
+/* Bordes */
+.caja-bordes {
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Tablas */
+.tabla-ejemplo {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabla-ejemplo th, .tabla-ejemplo td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-ejemplo tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Listas */
+.lista-ejemplo {
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+/* Márgenes y Padding */
+.margen-padding {
+    margin: 30px;
+    padding: 20px;
+    background-color: #e6e6fa;
+    border: 1px solid #ccc;
+}
+
+/* Fondos */
+.fondo-ejemplo {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #006b8f;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* Enlaces */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Redes sociales */
+.redes-sociales {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    color: #4caf50;
+    font-size: 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.redes-sociales a:hover {
+    color: #ff5722;
+}
